@@ -490,3 +490,7 @@ cmp.setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+vim.opt.colorcolumn = "80"
+vim.keymap.set("n", "<PageUp>", "M10<Up>zz")
+vim.keymap.set("n", "<PageDown>", "M10<Down>zz")
