@@ -508,3 +508,6 @@ require('nvim-cursorline').setup {
 vim.opt.colorcolumn = "80"
 vim.keymap.set("n", "<PageUp>", "M10<Up>zz")
 vim.keymap.set("n", "<PageDown>", "M10<Down>zz")
+
+vim.cmd("set foldmethod=indent")
+vim.cmd("set foldlevel=99")
