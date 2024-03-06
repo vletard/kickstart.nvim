@@ -703,3 +703,6 @@ vim.keymap.set("n", "<PageDown>", "M10<Down>zz")
 
 vim.cmd("set foldmethod=indent")
 vim.cmd("set foldlevel=99")
+
+-- removing annoying mouse capturing
+vim.cmd("set mouse=")
