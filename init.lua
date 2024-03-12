@@ -571,6 +571,7 @@ require('lazy').setup({
             },
           },
         },
+        pylsp = {},
       }
 
       -- Ensure the servers and tools above are installed
